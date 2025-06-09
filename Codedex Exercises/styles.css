@@ -6,7 +6,7 @@ body{
   width: 100%;
 }
 
-name, header, footer{
+main, header, footer{
   width: 70%;
   margin: auto;
 }
