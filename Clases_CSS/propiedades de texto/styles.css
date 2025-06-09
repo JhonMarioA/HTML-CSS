@@ -1,7 +1,32 @@
 
+h1{
+
+   text-align: center;
+   text-transform: uppercase;
+   color: red;
+   font-family: cursive;
+   font-style: italic;
+}
+
+
 p{
    color: blue;
    font-family:cursive;
    font-size: 20px;
    font-weight: bolder;
+   font-style: italic;
+   text-align: left;
+   text-decoration: underline; 
+   line-height: 2;
+   letter-spacing: 1px;
+   text-transform: capitalize;
 }
+
+  
+span{
+
+    text-decoration: line-through;
+    color: red;
+
+}
+
