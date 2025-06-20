@@ -156,7 +156,7 @@ if(winner === true){
     console.log("It's a tie!")
 }
 
-// ----------------------------------------------------------------
+// ---------------------------------------------------------------- Bucle While
 
 const luckyNumber = 7
 let guess = Math.floor(Math.random() * 10) + 1;
@@ -168,3 +168,12 @@ while(luckyNumber != guess){
 }
 
 console.log("My lucky number is " + luckyNumber)
+
+
+// ---------------------------------------------------------------- Bucle for
+
+for(let i=0; i <= 100; i++){
+  console.log("I Must Not Tell Lies")
+}
+
+
