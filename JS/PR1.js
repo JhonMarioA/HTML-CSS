@@ -176,4 +176,36 @@ for(let i=0; i <= 100; i++){
   console.log("I Must Not Tell Lies")
 }
 
+// ---------------------------------------------------------------- Continue, Break
 
+
+for(let i=1; i <= 50; i++){
+
+   if(i % 2 != 0){
+     continue
+   }
+
+   if(i === 42){
+     break
+   }
+
+   console.log(i)
+}
+
+// ----------------------------------------------------------------- Binary Number
+
+const myNumber = 30;
+let binary = "";
+
+// With for loop
+for (let i = myNumber; i >= 1 ; i = Math.floor(i/2)) {
+  if (i % 2 == 0) {
+    binary = "0" + binary;
+  } else {
+    binary = "1" + binary;
+  }
+}
+console.log('With for loop: ' + binary);
+
+
+// ----------------------------------------------------------------- Arrays
