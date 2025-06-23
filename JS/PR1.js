@@ -209,3 +209,32 @@ console.log('With for loop: ' + binary);
 
 
 // ----------------------------------------------------------------- Arrays
+
+
+let groceryList = ["🥛 Milk", "🥑 Avocado", "🥚 Eggs", "🍞 Bread"];
+
+
+groceryList[2] = "🧈 Butter"
+groceryList[4] = "🧼 Laundry soap"
+
+console.log(groceryList)
+
+
+
+
+const musicNotes = ["Do", "Re", "Mi", "Fa", "So", "La", "Ti"];
+
+for (let i = 0; i < musicNotes.length; i++) {
+  console.log(musicNotes[i]);
+}
+
+
+
+
+let multiple = 5
+let number = [1,2,3,4,5,6,7,8,9]
+
+for(let i = 0; i<=number.length; i++){
+   
+       console.log(multiple + " x " + i + " = " + multiple*i)
+}
