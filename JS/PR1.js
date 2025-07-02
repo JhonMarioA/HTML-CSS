@@ -370,3 +370,14 @@ function isPalindrome(word) {
     console.log("Is not a palindrome")
   }
 }
+
+// ----------------------------------------------------- objects
+const car = {
+
+  model: "Porsche 911 GT3",
+  year: 2025,
+  color: "Black",
+  used: false
+};
+
+console.log("I'm looking for a " + car.year + " " + car.model + " that is new")
