@@ -381,3 +381,38 @@ const car = {
 };
 
 console.log("I'm looking for a " + car.year + " " + car.model + " that is new")
+
+
+// ----------------------------------------------------- objects - methods // Functions inside objects
+
+const pig = {
+ 
+  name: "Jorge",
+  type: "pig",
+  age: 3,
+  makeSound: function(){
+    console.log("oigk")
+  }
+}
+
+const sheep = {
+
+  name: "Suzy",
+  type: "sheep",
+  age: 2,
+  makeSound: function(){
+    console.log("meeeggg")
+  }
+}
+
+const dog = {
+
+  name: "Danny",
+  type: "dog",
+  age: 4,
+  makeSound: function(){
+    return(console.log(dog.name + " is a " + dog.age + " year old " + dog.type + " that goes woof!"))
+  }
+}
+
+dog.makeSound()
